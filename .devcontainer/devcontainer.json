@@ -2,9 +2,9 @@
   "name": "Architecture-History-SaaS",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
   "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
     "ghcr.io/devcontainers/features/node:1": {
       "version": "20"
+      "pnpm": "latest"
     }
   },
   "postCreateCommand": "echo 'Setup complete! Your architecture SaaS environment is ready.'",
